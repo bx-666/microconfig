@@ -1,8 +1,8 @@
 spring:
    profiles:
       active:
-         dev
-
+        - dev
+---
 server:
   port: 8201
 
@@ -15,7 +15,7 @@ eureka:
  client:
   service-url:
     defaultZone: http://admin:enjoy@localhost:7001/eureka
-
+---
 server:
   port: 8102
 
